@@ -145,6 +145,8 @@ h1 {
   position: relative;
   width: 100%;
   height: 100vh;
+  min-height: 400px;
+  overflow: hidden;
 }
 
 .header__wraper {
@@ -229,6 +231,7 @@ body._touch .menu__link {
 .main-screen__slider,
 .main-screen__item {
   height: 100vh;
+  min-height: 400px;
 }
 
 .main-screen__slider :before {
@@ -257,6 +260,7 @@ body._touch .menu__link {
 .main-screen__img img {
   width: 100%;
   height: 100vh;
+  min-height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -891,5 +895,39 @@ body._touch .menu__link {
   .news__img {
     min-height: 140px;
     min-width: 280px;
+  }
+}
+
+@media only screen and (max-height: 540px) {
+  .main-screen__text-name {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .main-screen__text-name span {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .main-screen__text-post {
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-height: 360px) {
+  .main-screen__slider {
+    height: 350px;
+  }
+
+  .main-screen__text-name {
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .main-screen__text-name span {
+    font-size: 26px;
+    line-height: 26px;
   }
 }
