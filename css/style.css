@@ -863,6 +863,10 @@ body._touch .menu__link {
     margin: 5px 5px 10px 5px;
   }
 
+  .social__social-wrap {
+    margin-top: 25px;
+  }
+
   .social__list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
