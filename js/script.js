@@ -126,13 +126,12 @@ if (menuLinks.length > 0) {
 	}
 }
 
-
 $(document).ready(function () {
 	$('.main-screen__slider').slick({
 		arrows: false,
 		// dots: true,
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 1500,
 		infinite: true,
 		// slidesToShow: 1,
 		// slidesToScroll: 1,
