@@ -130,7 +130,7 @@ $(document).ready(function () {
 	$('.main-screen__slider').slick({
 		arrows: false,
 		// dots: true,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 1500,
 		infinite: true,
 		// slidesToShow: 1,
@@ -138,3 +138,4 @@ $(document).ready(function () {
 		// adaptiveHeight: true
 	});
 });
+
