@@ -130,9 +130,10 @@ $(document).ready(function () {
 	$('.main-screen__slider').slick({
 		arrows: false,
 		// dots: true,
-		// autoplay: true,
-		autoplaySpeed: 1500,
+		autoplay: true,
+		autoplaySpeed: 44000,
 		infinite: true,
+		fade: true,
 		// slidesToShow: 1,
 		// slidesToScroll: 1,
 		// adaptiveHeight: true
