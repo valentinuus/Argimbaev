@@ -992,7 +992,7 @@ body._touch .menu__link {
 }
 
 ._no-webp .footer__mail::before{
-  background-image: url(/img/mail-icon.png); }
+  background-image: url(../img/mail-icon.png); }
 
 .footer__mail::before {
   content: "";
@@ -1027,7 +1027,7 @@ body._touch .menu__link {
 }
 
 ._no-webp .footer__coperait-wrap::before{
-  background-image: url(/img/copyright-icon.png); }
+  background-image: url(../img/copyright-icon.png); }
 
 .footer__coperait-wrap::before {
   content: "";
@@ -1535,6 +1535,6 @@ body._touch .menu__link {
   }
 }
 
-._webp .footer__mail::before{ background-image: url(/img/mail-icon.webp); }
+._webp .footer__mail::before{ background-image: url(../img/mail-icon.webp); }
 
-._webp .footer__coperait-wrap::before{ background-image: url(/img/copyright-icon.webp); }
+._webp .footer__coperait-wrap::before{ background-image: url(../img/copyright-icon.webp); }
