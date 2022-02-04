@@ -590,7 +590,7 @@ body._touch .menu__link {
   color: #000000;
 }
 
-.video-main__link {
+.video-main__linktovideos {
   display: inline-block;
   margin-top: 40px;
   padding: 0 0 15px 15px;
@@ -615,17 +615,26 @@ body._touch .menu__link {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 30%;
           flex: 0 1 30%;
-  padding: 20px;
-  margin: 10px;
+  margin: 5px;
+  background: #939393;
 }
 
-.video-main__video {
-  min-width: 300px;
+.video-main__description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 10px 10px;
+  color: #fff;
+  background: #939393;
+}
+
+.video {
+  min-width: 280px;
   position: relative;
   aspect-ratio: 16/9;
 }
 
-.video-main__video-play {
+.video__media {
   position: absolute;
   top: 0;
   left: 0;
@@ -633,13 +642,32 @@ body._touch .menu__link {
   height: 100%;
 }
 
-.video-main__title {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 500;
-  margin-top: 10px;
-  padding: 0 10px;
-  color: #000;
+.video__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 68px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.video__button {
+  outline: none;
+}
+
+.video__shepe {
+  fill: #212121;
+  fill-opacity: 0.8;
+}
+
+.video-main__item:hover .video__shepe,
+.video__button:focus .video__shepe {
+  fill: #ff0000;
+  fill-opacity: 1;
 }
 
 .main-news-section {
