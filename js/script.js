@@ -140,3 +140,16 @@ $(document).ready(function () {
 	});
 });
 
+$(document).ready(function () {
+	$('.last-news__slider').slick({
+		arrows: false,
+		dots: true,
+		// autoplay: true,
+		autoplaySpeed: 44000,
+		infinite: true,
+		fade: true,
+		// slidesToShow: 1,
+		// slidesToScroll: 1,
+		// adaptiveHeight: true
+	});
+});
