@@ -144,11 +144,11 @@ $(document).ready(function () {
 	$('.last-news__slider').slick({
 		arrows: false,
 		dots: true,
-		// autoplay: true,
-		autoplaySpeed: 44000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		infinite: true,
 		fade: true,
-		// slidesToShow: 1,
+		arrows: true,
 		// slidesToScroll: 1,
 		// adaptiveHeight: true
 	});
