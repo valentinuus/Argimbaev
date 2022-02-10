@@ -161,4 +161,3 @@ $(document).ready(function () {
 
 
 
-document.getElementById('vk_share_button').innerHTML = VK.Share.button(false, { type: "round", text: "Сохранить" });
