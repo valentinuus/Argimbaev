@@ -153,3 +153,12 @@ $(document).ready(function () {
 		// adaptiveHeight: true
 	});
 });
+
+
+
+
+
+
+
+
+document.getElementById('vk_share_button').innerHTML = VK.Share.button(false, { type: "round", text: "Сохранить" });

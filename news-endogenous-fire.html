@@ -9,6 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   </head>
   <body>
     <div class="wrapper">
@@ -34,7 +35,22 @@
         </div>
       </header>
       <main class="main-news-item">
-        <section class="news-item _container">
+        <section class="news-item __container">
+          <div class="news-item__title">Эндогенный пожар на угольных месторождениях? </div>
+          <div class="news-item__social-panel social-panel">
+            <div class="social-panel__body">
+              <button class="facebook" onclick="window.open('https://www.facebook.com/sharer.php?u=АДРЕС_СТРАНИЦЫ','sharer','status=0,toolbar=0,width=650,height=500');" title="Поделиться в Facebook">Поделиться</button>
+              <button class="vkontakte" onclick="window.open('https://vkontakte.ru/share.php?url=АДРЕС_СТРАНИЦЫ','sharer','status=0,toolbar=0,width=650,height=500');" title="Поделиться Вконтакте" id="vk_share_button">Поделиться</button>
+              <button class="twitter" onclick="window.open('https://twitter.com/intent/tweet?text=ТАЙТЛ_СТРАНИЦЫ. ОПИСАНИЕ. СССЫЛКА','sharer','status=0,toolbar=0,width=650,height=500');" title="Твитнуть">Поделиться</button>
+              <script type="text/javascript">
+                document.write(VK.Share.button());
+                
+                
+                
+                
+              </script>
+            </div>
+          </div>
           <div class="news-item__img">
             <picture class="class">
               <source srcset="img/news/news-endogenous-fire.webp" type="image/webp"/>
@@ -79,6 +95,7 @@
           </div>
         </div>
       </footer>
+      <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/slick.js"></script>

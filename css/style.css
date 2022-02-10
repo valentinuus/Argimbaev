@@ -122,9 +122,18 @@ body._lock {
   margin: 0 auto;
 }
 
+.__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 section {
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 0 0 15px 0;
+}
+
+section:first-child {
+  margin-top: 15px;
 }
 
 .linktopage {
@@ -134,7 +143,7 @@ section {
   text-transform: uppercase;
   color: #797979;
   padding-left: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .linktopage::after {
@@ -1262,6 +1271,12 @@ body._touch .menu__link {
   margin: 30px 0;
 }
 
+.news-item__title {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
 .news-item__img {
   width: 100%;
   max-width: 1200px;
@@ -1273,6 +1288,68 @@ body._touch .menu__link {
   width: 100%;
   max-width: 1200px;
   height: auto;
+}
+
+.header-news-item .header-page__wraper {
+  height: 100px;
+}
+
+.social-panel__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -5px;
+}
+
+.social-panel__body button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+  margin: 0 5px;
+  height: 40px;
+  background-color: #76b243;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  border-radius: 3px;
+  color: #76b243;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.social-panel__body button:hover {
+  background-color: #007aff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: #fff;
+}
+
+.social-panel__body button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 40px;
+  height: 40px;
+}
+
+.social-panel__body button.facebook {
+  background-image: url(../img/icons/socials-facebook.svg);
+  background-repeat: no-repeat;
+}
+
+.social-panel__body button.vkontakte {
+  background-image: url(../img/icons/socials-vk.svg);
+  background-repeat: no-repeat;
+}
+
+.social-panel__body button.twitter {
+  background-image: url(../img/icons/socials-twitter.svg);
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 420px) {
