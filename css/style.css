@@ -1302,13 +1302,16 @@ body._touch .menu__link {
 }
 
 .social-panel__body a {
+  min-width: 40px;
   padding-top: 10px;
+  padding-left: 20px;
   text-align: center;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 20%;
           flex: 0 1 20%;
   margin: 0 5px;
   height: 40px;
+  font-size: 0px;
   background-color: #76b243;
   -webkit-transition-duration: 0.3s;
        -o-transition-duration: 0.3s;
@@ -1320,6 +1323,7 @@ body._touch .menu__link {
 }
 
 .social-panel__body a:hover {
+  font-size: 30px;
   background-color: #007aff;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 30%;
@@ -1589,14 +1593,14 @@ body._touch .menu__link {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 33.333%;
             flex: 0 1 33.333%;
-    font-size: 18px;
     padding-top: 12px;
   }
 
   .social-panel__body a:hover {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 40%;
-            flex: 0 1 40%;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+    font-size: 18px;
   }
 }
 
@@ -1845,10 +1849,6 @@ body._touch .menu__link {
 @media (max-width: 550px) {
   .news-item__title {
     font-size: 25px;
-  }
-
-  .social-panel__body a {
-    font-size: 0px;
   }
 }
 
