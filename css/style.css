@@ -1323,7 +1323,7 @@ body._touch .menu__link {
 }
 
 .social-panel__body a:hover {
-  font-size: 30px;
+  font-size: 20px;
   background-color: #007aff;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 30%;
