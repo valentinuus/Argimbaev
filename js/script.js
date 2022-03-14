@@ -18,21 +18,21 @@ testWebP(function (support) {
 
 //==================ibg=================
 //==========скрипт подставляющий картинку вместо фона=================
-function ibg() {
-	let ibg = document.querySelectorAll(".ibg");
-	for (var i = 0; i < ibg.length; i++) {
-		if (ibg[i].querySelector('img')) {
-			ibg[i].style.backgroundImage = 'url(' + ibg[i].querySelector('img').getAttribute('src') + ')';
-		}
-	}
-}
-ibg();
+// function ibg() {
+// 	let ibg = document.querySelectorAll(".ibg");
+// 	for (var i = 0; i < ibg.length; i++) {
+// 		if (ibg[i].querySelector('img')) {
+// 			ibg[i].style.backgroundImage = 'url(' + ibg[i].querySelector('img').getAttribute('src') + ')';
+// 		}
+// 	}
+// }
+// ibg();
 //==================ibg=================
 
 
 
 //==================toggleClass('active'),toggleClass('lock')=================
-//==========добавление классов для правильной работы бургера=================
+// ==========добавление классов для правильной работы бургера=================
 // $(document).ready(function () {
 // 	$('.menu__body').click(function (event) {
 // 		$('.menu__header,.menu__burger,.menu__logo').toggleClass('active');
@@ -153,9 +153,6 @@ $(document).ready(function () {
 		// adaptiveHeight: true
 	});
 });
-
-
-
 
 
 
