@@ -786,6 +786,13 @@ body._touch .menu__link {
   background-color: #b7b7b7;
 }
 
+.title__text_news {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .news-main__wrap {
   padding: 30px 0;
 }
@@ -858,13 +865,6 @@ body._touch .menu__link {
   font-size: 16px;
   color: #a9a9a9;
   margin: 15px 0 0 15px;
-}
-
-.title__text_news {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 .article__wrap {
@@ -1883,6 +1883,18 @@ body._touch .menu__link {
 
   .title__title {
     font-size: 35px;
+  }
+
+  .header-page_news {
+    height: 100vh;
+  }
+
+  .title__text_news {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 
   .study__img {
